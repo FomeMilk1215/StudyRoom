@@ -78,25 +78,40 @@ ERDCloud : https://www.erdcloud.com/team/QsZchwTCBMfgcL4kA
 2) 로그인 후 기본 화면 : index.jsp
 3) 공지사항 화면 : announcement.jsp
 	3->5-1)
-4) 사용자 정보 화면 : user_info.jsp
-5) 코스 화면 : course_list.jsp
+   
+5) 사용자 정보 화면 : user_info.jsp
+6) 코스 화면 : course_list.jsp
 	5-1) 코스 상세보기 : course_view.jsp
+   
 7) 전체 커뮤니티 화면 : community_list.jsp
 	6-1) 특정 커뮤니티 화면 : community_sublist.jsp
+   
 		6-1-1) 게시글 상세보기 : community_view.jsp
+   
 			6-1-1-1) 게시글 삭제 : communify_view_delete(ajax)
+   
 		6-1-2) 게시글 추가하기 : community_insert_form.jsp
+   
 		6-1-3) 게시글에 답글 추가하기 : community_reply_insert_form.jsp
+   
 		6-1-4) 게시글 수정하기 : community_modify_form.jsp
-8) 예약 화면 : reservation_list.jsp
+   
+9) 예약 화면 : reservation_list.jsp
 	7-0) 예약 삭제 : reservation_delete(ajax)
+   
 	7-1) 예약 추가 : reservation_insert_form.jsp
+   
 	7-2) 예약 수정 : reservation_modify_form.jsp
-9) 캘린더 화면 : calendar.jsp
+   
+11) 캘린더 화면 : calendar.jsp
 	8-1) 캘린더 일정 상세보기 : calendar_view.jsp
+    
 		8-1-1) 일정 제거하기 : calender_view_delete(ajax)
+    
 	8-2) 일정 추가하기 : calendar_insert_form.jsp
+    
 	8-3) 일정 변경하기 : calendar_modify_form.jsp
+    
 
 ================================================================================
 
